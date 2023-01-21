@@ -1,0 +1,21 @@
+include: fedora-common-ostree.yaml
+
+ref: jcapitao-desktop
+rojig:
+  name: jcapitao-desktop
+  summary: "jcapitao Desktop"
+  license: MIT
+
+repos:
+  - fedora-37
+  - fedora-37-updates
+  - fedora-37-updates-testing
+  - rpmfusion-free
+  - rpmfusion-free-updates
+
+packages:
+  - kernel
+  - kernel-modules-extra
+  - sway
+  - vim
+  - selinux-policy-targeted
